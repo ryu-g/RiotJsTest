@@ -1,5 +1,6 @@
-import app from '../tag/app'
+import app from '../tag/app.pug'
+import '../style/main.sass'
 
-console.log('index.js')
+console.log('hello, riot!')
 
 riot.mount('app')
