@@ -2,22 +2,15 @@
 riotの練習
 
 root
+>src/
+>>js/
+>>>index.js
 
-  └ src
+>>pug/
+>>>index.pug
 
-	├ js
+>>tag/
+>>>app.tag
 
-	│ └ index.js
-
-	├ pug
-
-
-	│ └ index.pug
-
-	├ tag
-
-	│ └ app.tag
-
-	└ style
-
-	  └ main.sass
+>>style/
+>>>main.sass
