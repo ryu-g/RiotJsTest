@@ -6,6 +6,8 @@ root
 >src/
 >>index.pug
 
+
+
 >>main.js
 
 >>js/
