@@ -16,9 +16,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev" : "npm run build & npm run bundle",
+    "dev": "npm run build & npm run bundle",
     "build": "riot src/tag/ src/tag/tags.js",
-    "bundle": "parcel src/index.pug"
+    "bundle": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
