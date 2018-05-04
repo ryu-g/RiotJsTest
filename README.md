@@ -5,6 +5,7 @@ parcelで動かしたい
 root
 >src/
 >>index.pug
+
 >>main.js
 >>js/
 >>>script.js
