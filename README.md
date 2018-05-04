@@ -1,13 +1,13 @@
 # RiotJsTest
 riotの練習
+parcelで動かしたい
 
 root
 >src/
+>>index.pug
+>>main.js
 >>js/
->>>index.js
-
->>pug/
->>>index.pug
+>>>script.js
 
 >>tag/
 >>>app.tag
