@@ -7,6 +7,7 @@ root
 >>index.pug
 
 >>main.js
+
 >>js/
 >>>script.js
 
