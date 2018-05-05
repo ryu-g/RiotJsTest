@@ -1,36 +1,27 @@
 {
-  "name": "riot",
+  "name": "riotJsTest",
   "version": "1.0.0",
-  "description": "none",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "babel-preset-es2015-riot": "^1.1.0",
-    "node-sass": "^4.9.0",
-    "parcel-bundler": "^1.8.1",
-    "parcel-plugin-pug": "^0.3.1",
-    "parcel-plugin-riotjs": "0.0.1",
-    "pug": "^2.0.3",
-    "riot": "^3.9.4",
-    "sass": "^1.3.2",
-    "tag-pug-loader": "^1.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "dev": "npm run build & npm run bundle",
-    "build": "riot src/tag/ src/tag/tags.js",
-    "bundle": "parcel src/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run watch:riot & npm run watch:parcel",
+    "watch:riot": "riot -w app/*.tag app/tags.js",
+    "watch:parcel": "parcel index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryu-g/riotJsTest.git"
   },
-  "keywords": [
-    "riot"
-  ],
-  "author": "ryu-g",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ryu-g/riotJsTest/issues"
   },
-  "homepage": "https://github.com/ryu-g/riotJsTest#readme"
+  "homepage": "https://github.com/ryu-g/riotJsTest#readme",
+  "dependencies": {
+    "riot": "^3.9.4",
+    "simple-dom": "^1.4.0-alpha.82914663"
+  }
 }
