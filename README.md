@@ -3,18 +3,9 @@ riotの練習
 parcelで動かしたい
 
 root
->src/
->>index.pug
+>index.html 
 
->>index.html 
+>index.js
 
->>main.js
-
->>js/
->>>script.js
-
->>tag/
->>>app.tag
-
->>style/
->>>main.sass
+>app/
+>>app.tag
