@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ryu-g/riotJsTest#readme",
   "dependencies": {
+    "node-sass": "^4.9.0",
     "riot": "^3.9.4",
     "simple-dom": "^1.4.0-alpha.82914663"
   }
