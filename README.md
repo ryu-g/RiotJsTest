@@ -9,3 +9,6 @@ root
 
 >app/
 >>app.tag
+
+>style/
+>>main.sass
