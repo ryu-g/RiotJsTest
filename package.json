@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run watch:riot & npm run watch:parcel",
     "watch:riot": "riot -w app/*.tag app/tags.js",
-    "watch:parcel": "parcel index.html"
+    "watch:parcel": "parcel index.pug",
+    "p": "npm run watch:riot & npm run watch:parcel"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,11 @@
   },
   "homepage": "https://github.com/ryu-g/riotJsTest#readme",
   "dependencies": {
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-pug": "^0.3.1",
+    "pug": "^2.0.3",
     "riot": "^3.9.4",
+    "riotify": "^2.0.0",
     "simple-dom": "^1.4.0-alpha.82914663"
   }
 }
