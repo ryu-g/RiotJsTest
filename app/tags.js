@@ -5,3 +5,11 @@ riot.tag2('app', '<title>riotTest</title> <h1>Hello, parcel world!</h1> <h3>{nam
   	this.nameB = opts.name;
 	this.ageB = opts.age;
 });
+
+riot.tag2('coffee', '<h1>{name}</h1>', '', '', function(opts) {
+		this.name= opts.name
+});
+riot.tag2('ichigo', '<h1>{name}</h1>', '', '', function(opts) {
+
+		this.name= "いちご牛乳"
+});
