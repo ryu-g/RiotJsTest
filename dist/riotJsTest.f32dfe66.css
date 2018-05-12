@@ -1,7 +1,23 @@
-h1 {
-  color: #222;
-  font-size: 14px; }
+* {
+  margin: 0; }
 
-h3 h4 {
+h3 {
   clor: #666;
   font-size: 14px; }
+
+section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.container {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px; }
+
+@max-PC {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; } }

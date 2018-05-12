@@ -1,15 +1,10 @@
-<App>
-<title>riotTest</title>
-  <h1>Hello, parcel world!</h1>
-	<h3>{ nameA }</h3>
-	<p>{ ageA }</p>
-	<h3>{ nameB }</h3>
-	<p>{ ageB }</p>
+<App class= 'item'>
+	<img src="https://placehold.jp/150x150.png" alt="">
+	<h3>{ head }</h3>
+	<p>{ txt }</p>
   <script>
     import riot from 'riot'
-  	this.nameA = "{nameA}に入るテキスト";
-	this.ageA = "{ageA}に入るテキスト";
-  	this.nameB = opts.name;
-	this.ageB = opts.age;
+  	this.head = opts.head;
+	this.txt = opts.txt;
   </script>
 </App>
