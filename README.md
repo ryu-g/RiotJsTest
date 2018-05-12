@@ -7,8 +7,15 @@ root
 
 >index.js
 
+>images/
+>>ichigo.jpg
+
 >app/
 >>app.tag
 
+>>ichigo.tag
+
 >style/
 >>main.sass
+
+>>_mixin.sass
